@@ -1,0 +1,16 @@
+
+
+.......... Kifah Airlines ..........
+
+............. Ticket ...............
+
+Customer ID: 0
+Customer Name: 
+Customer Gender: 
+
+Description:
+
+Destination: Europe
+Flight cost: 2400
+_______________________________
+
