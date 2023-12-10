@@ -1,6 +1,6 @@
 
 
-//* >>>>>>>>>>>>>>> Supermarket Billing <<<<<<<<<<<<<<< *//
+//* >>>>>>>>>>>>>>> Supermarket Billing Project <<<<<<<<<<<<<<< *//
 
 #include <iostream>
 #include <fstream>

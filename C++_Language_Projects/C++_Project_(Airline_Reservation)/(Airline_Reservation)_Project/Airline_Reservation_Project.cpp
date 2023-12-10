@@ -1,6 +1,6 @@
 
 
-//* >>>>>>>>>>>>>>> Airline Reservation <<<<<<<<<<<<<<< *//
+//* >>>>>>>>>>>>>>> Airline Reservation Project <<<<<<<<<<<<<<< *//
 
 #include <iostream>
 #include <fstream>
