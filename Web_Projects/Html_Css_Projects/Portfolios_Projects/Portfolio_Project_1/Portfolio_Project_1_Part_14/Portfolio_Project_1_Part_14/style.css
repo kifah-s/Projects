@@ -1,0 +1,617 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/** Start general style */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  margin: 50px 50px;
+}
+/** End general style */
+
+/** Variables */
+:root {
+  --red: #d90429;
+  --black: #000000;
+  --white: #ffffff;
+  --gray: #2b2d42;
+}
+
+/** Start Header */
+header {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  margin: 10px 50px;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+header a:hover {
+  color: var(--red);
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+nav a {
+  margin-left: 40px;
+  font-size: 18px;
+  font-weight: 600;
+}
+/** End Header */
+
+/** Start Sections */
+/** Start Hero Section */
+.hero_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero_info > h2 {
+  font-size: 30px;
+}
+
+.hero_info > p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.hero_info > p > span {
+  font-weight: bold;
+  color: var(--red);
+}
+
+.hero_img > img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero_img {
+  width: 50%;
+}
+/** End Hero Section */
+
+/** Start About Section */
+.about_section {
+  background-color: var(--gray);
+  color: var(--white);
+}
+
+.about_section > .about_title {
+  text-align: center;
+  padding: 15px 0px;
+  font-size: 20px;
+}
+
+.about_section > .about_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_section > .about_info > .about_me {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.about_section > .about_info > .about_me > p > span {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.about_section > .about_info > .about_img {
+  margin-right: 20px;
+  height: auto;
+}
+
+.about_section > .about_info > .about_img > img {
+  height: 480px;
+}
+/** End About Section */
+
+/** Start Skills Section */
+.skills_section > .skills_title {
+  text-align: center;
+  padding: 15px 0px;
+  font-size: 20px;
+}
+
+.skills_section > .skills_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills_section > .skills_info > .skills_1 > .skill_a {
+  background-color: var(--gray);
+  margin: 10px 0px;
+  color: var(--white);
+  height: 35px;
+  width: 250px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills_section > .skills_info > .skills_2 > .skill_b {
+  background-color: var(--gray);
+  margin: 10px 0px;
+  color: var(--white);
+  height: 57px;
+  width: 250px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/** End Skills Section */
+
+/** Start Projects Section */
+.projects_section {
+  background-color: var(--gray);
+  color: var(--white);
+  padding-bottom: 5px;
+}
+.projects_section > .projects_title {
+  text-align: center;
+  padding: 15px 0px;
+  font-size: 20px;
+}
+
+.projects_section > .projects_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects_section > .projects_info > .projects {
+  background-color: var(--white);
+  margin: 10px 20px;
+  width: auto;
+  height: auto;
+  border-radius: 20px;
+  color: var(--black);
+  text-align: center;
+}
+
+.projects_section > .projects_info > .projects > img {
+  width: 350px;
+  height: 300px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.projects_section > .projects_info > .projects > h3 {
+  margin: 10px 10px;
+}
+
+.projects_section > .projects_info > .projects > .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
+}
+
+.projects_section > .projects_info > .projects > .buttons > button {
+  background-color: var(--red);
+  border: 0;
+  border-radius: 5px;
+  padding: 6px;
+  width: 100px;
+  color: var(--white);
+  transition: 0.7s;
+}
+
+.projects_section > .projects_info > .projects > .buttons > button:hover {
+  background-color: var(--gray);
+  cursor: pointer;
+}
+
+.projects_section > .line {
+  background-color: var(--white);
+  width: 90%;
+  height: 4px;
+  margin: 50px auto;
+  border-radius: 50px;
+}
+/** End Projects Section */
+
+/** Start Experience Section */
+.experience_section > .experience_title {
+  text-align: center;
+  padding-bottom: 25px;
+  font-size: 20px;
+}
+
+.experience_section > .experience_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience_section > .experience_info > .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience_section > .experience_info > .info > .line {
+  background-color: var(--black);
+  height: 100px;
+  width: 3px;
+}
+
+.experience_section > .experience_info > .info > div > p > span {
+  font-weight: bold;
+}
+
+.experience_section > .experience_info > .img {
+  width: auto;
+}
+/** End Experience Section */
+
+/** Start Contact us Section */
+.contact_section {
+  background-color: var(--red);
+  color: var(--white);
+}
+
+.contact_section > .contact_title {
+  text-align: center;
+  padding-bottom: 25px;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+.contact_section > .contact_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_section > .contact_info > form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.contact_section > .contact_info > form > input {
+  margin-bottom: 35px;
+  border: none;
+  height: 25px;
+  border-radius: 5px;
+  background-color: var(--gray);
+  color: var(--white);
+  height: 40px;
+  padding: 10px;
+}
+
+.contact_section > .contact_info > form > input[name="massage"] {
+  height: 250px;
+  text-align: center;
+}
+
+.contact_section > .contact_info > form > input[name="btn"] {
+  width: 100px;
+  margin-left: 40%;
+  height: 35px;
+  font-size: medium;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.contact_section > .contact_info > form > input[name="btn"]:hover {
+  cursor: pointer;
+  background-color: var(--white);
+  color: var(--black);
+}
+/** End Contact us Section */
+
+/** Start Footer */
+footer {
+  margin: -50px 50px 0px 50px;
+}
+
+footer > .footer_info {
+  background-color: var(--gray);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  height: 25px;
+  color: var(--white);
+}
+
+footer > .footer_info > .footer_img > img {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+footer > .footer_info > .footer_img > img:hover {
+  cursor: pointer;
+}
+
+footer > .footer_info > .footer_title > h3 > span {
+  color: var(--red);
+}
+/** End Footer */
+/** End Sections */
+
+/** Start Media Query */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 100px) and (max-width: 600px) {
+  /** Header */
+  header {
+    flex-direction: column;
+  }
+  header > nav {
+    display: flex;
+  }
+  header > nav > a {
+    font-size: 15px;
+    margin: 10px;
+  }
+
+  /** Hero Section */
+  .hero_section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .hero_info > p {
+    font-size: medium;
+  }
+  .hero_img > img {
+    margin-top: 30px;
+  }
+
+  /** About Section */
+  .about_section > .about_info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about_section > .about_info > .about_img > img {
+    display: none;
+  }
+
+  /** Skills Section */
+  .skills_section > .skills_info > .skills_img {
+    display: none;
+  }
+  .skills_section > .skills_info > .skills_1 {
+    margin-right: 20px;
+  }
+
+  /** Projects Section */
+  .projects_section > .projects_info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .projects_section > .projects_info > .projects {
+    width: fit-content;
+  }
+
+  /** Experience Section */
+  .experience_section > .experience_info {
+    flex-direction: column;
+  }
+  .experience_section > .experience_info > .info {
+    text-align: center;
+    align-items: center;
+  }
+  .experience_section > .experience_info > .img {
+    display: none;
+  }
+
+  /** Contact us Section */
+  .contact_section > .contact_info > .contact_img {
+    display: none;
+  }
+  .contact_section > .contact_info {
+    justify-content: center;
+    text-align: center;
+  }
+  .contact_section > .contact_info > form > input[name="btn"] {
+    margin-left: 70px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  /** Header */
+  header {
+    flex-direction: column;
+  }
+  header > nav {
+    display: flex;
+  }
+  header > nav > a {
+    font-size: 15px;
+    margin: 10px;
+  }
+
+  /** Hero Section */
+  .hero_section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .hero_info > p {
+    font-size: medium;
+  }
+  .hero_img > img {
+    margin-top: 30px;
+  }
+
+  /** About Section */
+  .about_section > .about_info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about_section > .about_info > .about_img > img {
+    display: none;
+  }
+
+  /** Skills Section */
+  .skills_section > .skills_info > .skills_img {
+    display: none;
+  }
+  .skills_section > .skills_info > .skills_1 {
+    margin-right: 20px;
+  }
+
+  /** Projects Section */
+  .projects_section > .projects_info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .projects_section > .projects_info > .projects {
+    width: fit-content;
+  }
+
+  /** Experience Section */
+  .experience_section > .experience_info {
+    flex-direction: column;
+  }
+  .experience_section > .experience_info > .info {
+    text-align: center;
+    align-items: center;
+  }
+  .experience_section > .experience_info > .img {
+    display: none;
+  }
+
+  /** Contact us Section */
+  .contact_section > .contact_info > .contact_img {
+    display: none;
+  }
+  .contact_section > .contact_info {
+    justify-content: center;
+    text-align: center;
+  }
+  .contact_section > .contact_info > form > input[name="btn"] {
+    margin-left: 70px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  /** Header */
+  header {
+    flex-direction: column;
+  }
+  header > nav {
+    display: flex;
+  }
+  header > nav > a {
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  /** Hero Section */
+  .hero_section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .hero_info > p {
+    font-size: medium;
+  }
+  .hero_img {
+    width: 500px;
+    height: 200px;
+    margin-top: 30px;
+    margin-right: 100px;
+  }
+
+  /** About Section */
+  .about_section > .about_info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /** Skills Section */
+  .skills_section > .skills_info > .skills_img {
+    display: none;
+  }
+  .skills_section > .skills_info > .skills_1 {
+    margin-right: 20px;
+  }
+
+  /** Projects Section */
+  .projects_section > .projects_info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .projects_section > .projects_info > .projects {
+    width: fit-content;
+  }
+
+  /** Experience Section */
+  .experience_section > .experience_info > .img {
+    margin-top: 250px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .experience_section > .experience_info > .img > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /** Contact us Section */
+  .contact_section {
+    margin: 10px 50px;
+  }
+  .contact_section > .contact_info {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .contact_section > .contact_info > form {
+    width: auto;
+  }
+  .contact_section > .contact_info > form > input[name="btn"] {
+    margin-left: 250px;
+  }
+  .contact_section > .contact_info > .contact_img {
+    width: 500px;
+    height: 500px;
+    margin-left: 120px;
+    margin-top: -80px;
+  }
+  .contact_section > .contact_info > .contact_img > img {
+    width: 100%;
+    height: 100%;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 993px) and (max-width: 1300px) {
+  .projects_section > .projects_info {
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+  }
+  .projects_section > .projects_info > .projects > img {
+    width: 500px;
+  }
+}
+/** End Media Query */
