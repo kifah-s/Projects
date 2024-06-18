@@ -1,1 +1,1 @@
-# My projects in HTML, CSS and JavaScript ..
+# My Projects In HTML, CSS and JavaScript ..
