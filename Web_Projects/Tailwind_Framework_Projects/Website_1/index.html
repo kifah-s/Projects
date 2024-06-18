@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- * Tailwind * -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- * Remix icon * -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+    />
+
+    <title>Tailwind_Project</title>
+  </head>
+  <body>
+    <!-- * Navbar * -->
+    <nav id="navbar" class="container mx-auto p-6">
+      <div class="flex items-center justify-between">
+        <div>
+          <img src="img/logo-light.png" alt="Tailwind Logo" class="w-52" />
+        </div>
+
+        <div class="hidden md:flex space-x-6 items-center">
+          <a href="#" class="text-slate-900 hover:text-orange-500 py-2"
+            >Portfolio</a
+          >
+          <a href="#" class="text-slate-900 hover:text-orange-500 py-2"
+            >About</a
+          >
+          <a href="#" class="text-slate-900 hover:text-orange-500 py-2"
+            >Contact</a
+          >
+          <a href="#" class="text-slate-900 hover:text-orange-500 py-2"
+            >Social</a
+          >
+          <a
+            href="#"
+            class="bg-orange-500 hover:bg-slate-900 text-white px-5 py-2 rounded-full"
+            >Call Me</a
+          >
+        </div>
+
+        <button class="md:hidden">
+          <i class="ri-menu-add-fill text-2xl"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- * Hero section * -->
+    <section id="heroSec">
+      <div
+        class="container mx-auto p-6 space-x-6 flex flex-col-reverse items-center justify-center md:flex-row"
+      >
+        <div
+          class="w-1/2 flex flex-col justify-center space-y-5 py-8 text-center md:text-left text-slate-900"
+        >
+          <h1 class="font-bold text-3xl md:text-5xl">
+            Lorem ipsum dolor sit amet.
+          </h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius eum
+            quia dolore tempora, corporis voluptas, cum nisi magnam sapiente
+            harum a earum, culpa perferendis provident.
+          </p>
+          <a
+            href="#"
+            class="bg-orange-500 hover:bg-slate-900 text-white px-5 py-2 rounded-full self-center md:self-start"
+            >Call Me</a
+          >
+        </div>
+
+        <div class="w-1/2">
+          <img src="img/1.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- * Author section * -->
+    <section id="authorSec">
+      <div class="container px-5 mx-auto my-24 text-center">
+        <h2 class="font-bold text-4xl">Lorem ipsum dolor sit amet.</h2>
+
+        <p class="mt-8 max-w-5xl mx-auto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          sequi dolores culpa error hic repudiandae iure nulla, quas veniam
+          natus!
+        </p>
+
+        <div
+          class="mt-10 flex flex-col space-x-0 space-y-5 md:flex-row md:space-x-5 md:space-y-0"
+        >
+          <div
+            class="md:w-1/3 flex flex-col items-center p-6 space-y-2 rounded-lg border border-slate-200 bg-slate-100"
+          >
+            <img
+              src="img/adam.jpg"
+              alt="adam"
+              class="w-16 rounded-full -mt-12"
+            />
+            <h5 class="font-bold text-lg text-slate-900">Lorem, ipsum.</h5>
+            <p class="text-sm leading-5 text-slate-700">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+              earum! Iusto optio possimus in ratione, quasi deserunt similique
+              dolor tenetur.
+            </p>
+          </div>
+
+          <div
+            class="md:w-1/3 flex flex-col items-center p-6 space-y-2 rounded-lg border border-slate-200 bg-slate-100"
+          >
+            <img
+              src="img/madeline.jpg"
+              alt="madeline"
+              class="w-16 rounded-full -mt-12"
+            />
+            <h5 class="font-bold text-lg text-slate-900">Lorem, ipsum.</h5>
+            <p class="text-sm leading-5 text-slate-700">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+              earum! Iusto optio possimus in ratione, quasi deserunt similique
+              dolor tenetur.
+            </p>
+          </div>
+
+          <div
+            class="md:w-1/3 flex flex-col items-center p-6 space-y-2 rounded-lg border border-slate-200 bg-slate-100"
+          >
+            <img
+              src="img/marcel.jpg"
+              alt="marcel"
+              class="w-16 rounded-full -mt-12"
+            />
+            <h5 class="font-bold text-lg text-slate-900">Lorem, ipsum.</h5>
+            <p class="text-sm leading-5 text-slate-700">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+              earum! Iusto optio possimus in ratione, quasi deserunt similique
+              dolor tenetur.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- * Footer * -->
+    <footer class="bg-slate-900">
+      <div
+        class="container mx-auto flex flex-col-reverse md:flex-row text-white px-5 py-10 justify-between space-y-8 md:space-y-0"
+      >
+        <div
+          class="flex flex-col items-center justify-between space-y-12 md:space-y- md:items-start2"
+        >
+          <div>
+            <img src="img/logo-dark.png" alt="logo" class="h-8" />
+          </div>
+
+          <div class="space-x-4">
+            <a href="#"><i class="ri-facebook-fill text-3xl"></i></a>
+            <a href="#"><i class="ri-instagram-fill text-3xl"></i></a>
+            <a href="#"><i class="ri-youtube-fill text-3xl"></i></a>
+            <a href="#"><i class="ri-linkedin-fill text-3xl"></i></a>
+            <a href="#"><i class="ri-twitter-fill text-3xl"></i></a>
+          </div>
+        </div>
+
+        <div class="flex justify-around space-x-32">
+          <div class="flex flex-col space-y-3">
+            <a href="#" class="hover:text-slate-300">Home</a>
+            <a href="#" class="hover:text-slate-300">About</a>
+            <a href="#" class="hover:text-slate-300">Contact</a>
+          </div>
+
+          <div class="flex flex-col space-y-3">
+            <a href="#" class="hover:text-slate-300">Home</a>
+            <a href="#" class="hover:text-slate-300">About</a>
+            <a href="#" class="hover:text-slate-300">Contact</a>
+          </div>
+        </div>
+
+        <div class="flex flex-col justify-between">
+          <form action="#">
+            <div class="flex space-x-3">
+              <input type="text" class="flex-1 py-2 px-6 rounded-full" />
+              <button
+                class="bg-orange-500 hover:bg-slate-500 rounded-full px-4 py-2"
+              >
+                Go
+              </button>
+            </div>
+          </form>
+
+          <div class="hidden md:block">
+            Copyright &copy; 2024, All Rights Reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
