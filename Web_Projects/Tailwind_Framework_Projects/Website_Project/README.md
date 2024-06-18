@@ -1,3 +1,3 @@
-## Website 1:
+## Website Project:
 
 - Create a simple project with Tailwind Framework (Website).
