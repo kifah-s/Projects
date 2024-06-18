@@ -1,0 +1,11 @@
+{
+  "doctors": [
+    {
+      "id": 1,
+      "name": "fozy",
+      "phone": "+963999887766",
+      "specialization": "heart",
+      "info": "asdfasd fasdf asdf asd fasdfasdfjk naksjdfnajskdnfkasdf asdf"
+    }
+  ]
+}
