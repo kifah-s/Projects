@@ -1,0 +1,73 @@
+.App {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px;
+  border-radius: 10px;
+  width: 30%;
+  height: 80%;
+}
+
+.container > h1 {
+  flex-grow: 1;
+}
+
+.container > input {
+  margin: 5px;
+  width: 90%;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 3px 5px;
+}
+
+.container > button {
+  margin: 15px;
+  width: 30%;
+  border: none;
+  height: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  font-weight: bold;
+}
+
+.container > button:hover {
+  background-color: rgb(226, 226, 226);
+}
+
+.container > ol {
+  align-self: flex-start;
+}
+
+.container > ol > .item > li {
+  width: 350px;
+  overflow-wrap: break-word;
+  cursor: pointer;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.item > span {
+  cursor: pointer;
+  color: red;
+}
+
+.done {
+  text-decoration: line-through;
+}
