@@ -1,4 +1,4 @@
-## Project: Bank 1.
+## Project: Bank.
 
 ---
 
